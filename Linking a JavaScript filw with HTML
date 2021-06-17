@@ -1,0 +1,58 @@
+// HTML PAGE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction of Javscript</title>
+    <script type="text/javascript" src="Linking_a_Java_file_with_html.js"></script>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse fuga possimus odio doloribus laboriosam numquam? Explicabo suscipit eaque iste? Veniam nam, labore eligendi id voluptas recusandae excepturi corrupti tempora perspiciatis doloremque? Quam!
+    </div>
+    <div class="container">
+        <p>This is 1st paragraph</p>
+        <p>This is 2nd paragraph</p>
+    </div>
+    <!--Internal Javascript-->
+    <!-- <script>
+        //Internal javascript
+      console.log('Hellow" World');
+      console.log("I am Subhajit");
+
+      window.alert("Aisha");
+      document.write(90+10);
+      document.write("90+10");
+      document.write("<h1>This is Our Javascript Program</h1>");
+
+      var a="Aisha is a student of BCA";
+      var c="She is a student of 1st YEAR";
+    //   var b=9;
+      console.log(`${a} She ""has done '' her '' 1st sem ${c}`);//`${}`
+    </script> -->
+</body>
+</html>
+
+// JavaScript Page
+
+//Internal javascript
+      console.log('Hellow" World');
+      console.log("I am Subhajit");
+
+      window.alert("Aisha");
+      document.write(90+10);
+      document.write("90+10");
+      document.write("<h1>This is Our Javascript Program</h1>");
+
+      var a="Aisha is a student of BCA";
+      var c="She is a student of 1st YEAR";
+    //   var b=9;
+      console.log(`${a} She ""has done '' her '' 1st sem ${c}`);//`${}`
