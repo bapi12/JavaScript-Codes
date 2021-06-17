@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa repellendus illum vel.
+
+    </div>
+
+
+
+    <script>
+
+        //Conversion of any Data types
+
+        //Interger to String conversion
+        var num1 = 100;// Now this is integer value;
+        console.log(typeof(num1));
+
+
+        var num2 = toString(num1);//toString is a funtion which convert any integer or float value to a string
+
+        console.log(typeof(num2));//typeof is funtion whick show the datatype of the variable
+
+        //String to Integer conversion
+
+        var a = "1000";
+        console.log(typeof(a));
+
+
+        var b = parseInt(a); //parsInt is a funtion which convert any string value to a int datatype
+        console.log(typeof(b));
+
+
+        //String to Float conversion
+        
+        var d = "2000";
+        console.log(typeof(d));
+
+        var e = parseFloat(d);//parseFloat is a funtion which convert any string value to a Float datatype 
+        console.log(typeof(e));
+
+
+        // To Fixed Function
+
+         var t = 1.349;
+
+         var v = t.toFixed(2);//toFixed is function that show the number from a float datatype which you want to print
+         console.log(v);
+
+         //toPrecision
+
+         var u = 2.569;
+         var p = u.toPrecision(2);//toPrecision is a function which print the the lenth of the data type, which you give
+
+         console.log(p);
+    </script>
+</body>
+</html>
