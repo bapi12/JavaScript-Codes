@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        //Javascript Array Functions
+        // There are some function of array in javascript 
+        // unshift() function is opposite of push()
+
+        let names = ["Bapi","Subhajit","Babun"];
+        let add = names.unshift("Techno");//unshift() function insert elements towards 1st  
+        console.log(names);
+
+        //splice() is array function which can add or delete elements from array
+        //syntax splice():
+        // splice(1st parameter,2nd parameter)
+        // 1st parameter where elements shoud be added to
+        //2nd prameter where elements should be deleted
+
+        let s = names.splice(1,0,"India","Bharat");
+
+        console.log(names);
+
+        // slice() is a array function which slice any array to sub array 
+
+        let sarray = names.slice(1,4);
+        console.log(sarray);// new array is made but the main array will remain same
+
+        console.log(names)//Main array
+    </script>
+</body>
+</html>
